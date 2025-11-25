@@ -12,3 +12,21 @@ grow_vertical = 2
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+
+[node name="MainScreen" type="Control" parent="Background"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Context" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Container" type="Container" parent="Context"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Context/Container"]
+layout_mode = 2
